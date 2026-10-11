@@ -1,0 +1,22 @@
+algoritmo "Função"
+
+var
+  resultado_casoA: inteiro
+  resultado_casoB: inteiro
+  resultado_casoC: inteiro
+
+  funcao somar(numero_A: inteiro, numero_B: inteiro): inteiro
+    inicio
+      retorne numero_A + numero_B
+    fimfuncao
+
+inicio
+  resultado_casoA <- somar(1, 1)
+  resultado_casoB <- somar(5, 10)
+  resultado_casoC <- somar(50, 100)
+
+  escreval("Resultado do Caso A: ", resultado_casoA)
+  escreval("Resultado do Caso B: ", resultado_casoB)
+  escreval("Resultado do Caso C: ", resultado_casoC)
+  
+fimalgoritmo
