@@ -1,0 +1,16 @@
+algoritmo "Funções de Caracteres"
+
+var
+  texto: caractere
+
+inicio
+  texto <- "Egito"
+
+  escreval("Texto original: ", texto)
+  escreval("Copia parte do texto: ", copia(texto, 1, 3))
+  escreval("Quantidade de caracteres: ", compr(texto))
+  escreval("Texto com todos os caracteres maiúsculos: ", maiusc(texto))
+  escreval("Texto com todos os caracteres minúsculos: ", minusc(texto))
+  escreval("Posição do 'gi': ", pos("gi", texto))
+
+fimalgoritmo
